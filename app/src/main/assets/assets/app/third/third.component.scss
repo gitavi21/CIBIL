@@ -1,0 +1,129 @@
+
+.mat-card{
+    height: a;
+    padding: 10px;
+    align-items: center;
+    margin: 10px;
+    background-color: white;
+  }
+  
+.p1 img 
+ {     
+        height: 50px;
+        
+        background-size: cover;    
+        align-items: center;
+ }
+ .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+ .p2 img 
+ {
+        margin:5px;
+        width: 20px;
+        background-size: cover;
+        float: left;
+        align-items: center;
+ }
+ .p3 img{
+  height: 50px;
+        
+  background-size: cover;    
+  align-items: center;
+    margin-top: 300px }
+ .wrapper{ 
+	display:block
+	} 
+  .div-1 {
+    font-weight: 500;
+    font-size: 13px;
+    color: #002953;
+  }
+  
+  .div-2 {
+    line-height: 15px;
+  
+    color: gray;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 40px;
+  }
+  .div-5 {
+    line-height: 15px;
+  
+    color: gray;
+    font-size: 12px;
+ 
+  }
+  .orange{
+    text-align: right;
+    color: orange;
+    margin-top:10px;
+    margin-right: 10px;
+  }
+  #partitioned {
+    padding-left: 15px;
+    letter-spacing: 42px;
+    border: 0;
+    background-image: linear-gradient(to left, black 70%, rgba(255, 255, 255, 0) 0%);
+    background-position: bottom;
+    background-size: 50px 1px;
+    background-repeat: repeat-x;
+    background-position-x: 35px;
+    width: 220px;
+  
+    align-items: center;
+  }
+  
+  #divInner{
+    left: 0;
+    align-self: center;
+  }
+  
+  #divOuter{
+    align-self: center;
+    width: 190px; 
+    overflow: hidden;
+  }
+  .div-4 {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  
+  .div-3{
+    
+    text-align: right;
+    color:black ;
+    margin-top:5px;
+    margin-right: 10px;
+    
+  }
+  .block{
+    padding-top: 5px;
+  }
+  .mat-card-header{
+      align-content:flex-start;
+      
+      align-self: center;
+    text-decoration: black;
+    
+  }
+
+  .otpInput{
+    align-items: center;
+  }
+  
+  .btn{
+    border: orange;
+    border-radius: 25px;
+    position:relative;
+margin-top:100%;
+    background-color: orange;
+    color: white;
+    margin: 30px;
+
+  }

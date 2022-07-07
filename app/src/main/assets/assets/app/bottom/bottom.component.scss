@@ -1,0 +1,57 @@
+.container{
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 30px; /* future proofing */
+    -khtml-border-radius: 10px; 
+    justify-content: center;
+    align-items: center;
+}
+.div-1 {
+    font-weight: bold;
+    font-size: 15px;
+    color: #002953;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .div-2 {
+  
+    color: black;
+  font-size: 12px;
+  text-align: center;
+
+}
+.full-width {
+  border-radius: 25px !important;
+}
+.mat-bottom-sheet-container {
+  min-width: 384px;
+  max-width: calc(100vw - 128px)
+}
+  .center {
+    display: block;
+    margin-left: auto;
+    width: 230px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+  }
+  .p2 img 
+  {
+   
+         width: 230px;
+         
+         background-size: cover;
+        margin: 10px;
+         align-items: center;
+  }
+.btn{
+    border: orange;
+    border-radius: 25px;
+    border-width: 2px;
+    border-style: solid;
+    width: 100%;
+    align-content: center;
+    background-color: white;
+    color: orange;
+
+  }

@@ -1,0 +1,241 @@
+
+.mat-card{
+    
+    
+    padding: 10px;
+    
+    align-items: center;
+    margin: 10px;
+    background-color: white;
+  }
+ 
+  .center {
+    font-weight: bold;
+    font-size: 13px;
+    margin-right: 10px;
+    
+    color: white;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    text-align: center;
+  }
+  table{
+    width: 100%;
+    margin-top: 20px;
+  }
+  td{
+  
+      vertical-align: middle;
+  }
+  tr{
+
+      width: 20px;
+      vertical-align: middle;
+  }
+.p1 img 
+ {
+  
+    
+        width: 8px;
+        margin-right: 8px;
+        background-size: cover;
+        float: right;
+        align-items: center;
+ }
+ .litext{
+   text-decoration:line-through;
+   display:inline-block;
+
+
+ }
+ .p2 img 
+ {
+  
+     margin:5px;
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+        align-items: center;
+ }
+ .p3 img 
+ {
+
+     margin:5px;
+    width: 25px;
+    background-size: cover;
+        align-items: center;
+ }
+ .wrapper{ 
+	display:block
+	} 
+  .div-1 {
+    font-weight: bold;
+    font-size: 13px;
+    color: #002953;
+    margin-right: 10px;
+
+  }
+  .div-i{
+    font-size: 13px;
+    font-weight: bold;
+    
+    color: #002953;
+  }
+  .div-2 {
+  
+      color: gray;
+    font-size: 12px;
+    
+    
+    margin-right: 10px;
+  }
+  .div-22 {
+  
+    color: gray;
+  font-size: 12px;
+  padding-left: 5px;
+line-height: 15px;
+  
+  margin-right: 10px;
+}
+.box{
+  position: relative;
+  text-align: center;
+  display: inline-block; /* Make the width of box same as image */
+}
+.box .score{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  font-size: 60px;     
+  text-align: center;
+  /* Adjust this value to move the positioned div up and down */
+  font-family: Arial,sans-serif;
+  color: #002953;
+  top: 55%;
+
+}
+
+.img1 {
+  height: auto;
+  width: 100%;
+  position:relative;
+  text-align: center;
+  z-index: 1;
+}
+.img2{
+  margin-left: auto;
+  margin-right: auto;
+  left: 1%;
+  top: 1%;
+  width: 100%;
+  position: absolute;
+  
+
+  z-index: 2;
+}
+.mat-card2{
+    
+    
+  padding: 10px;
+  
+  align-items: center;
+  margin: 10px;
+  background-color: #002953;
+  .div-1{
+      font-size: 13px;
+      color: white;
+      margin-right: 10px;
+  }
+  .div-2{
+      font-size: 12px;
+      color: white;
+      margin-right: 10px;
+  }
+}
+
+.div-23 {
+  
+  color: gray;
+font-size: 10px;
+text-align: center;
+}
+.div-24 {
+  
+  color: black;
+font-size: 12px;
+text-align: center;
+font-weight: 500;
+line-height: 15px;
+margin-left: 20px;
+margin-right: 20px;
+display: inline-block; /* Make the width of box same as image */
+
+}
+.orange{
+  text-align: center;
+
+  color:orange;
+  font-size: 12px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+  .div-3{
+    font-weight: bold;
+    font-size: 13px;
+    margin-right: 10px;
+    
+    color: black;
+    padding: 5px;
+  }
+  
+  .block{
+    padding-top: 5px;
+  }
+  .mat-card-header{
+      align-content:flex-start;
+      
+      align-self: center;
+    text-decoration: black;
+    
+  }
+  
+.btn{
+  border: orange;
+  border-radius: 25px;
+
+  background-color: orange;
+  color: white;
+  margin: 5px;
+  padding: 8px;
+}
+.btn2{
+  font-size: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: black;
+  border-radius: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: white;
+  color: black;
+  margin-right: 10px;
+}
+.btn3{
+  font-size: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: white;
+  border-radius: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: white;
+  margin-right: 10px;
+}

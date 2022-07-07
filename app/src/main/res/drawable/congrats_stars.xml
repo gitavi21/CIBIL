@@ -1,0 +1,54 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="261dp"
+    android:height="108dp"
+    android:viewportWidth="261"
+    android:viewportHeight="108">
+  <path
+      android:pathData="M10.397,83.25L4.853,91.647 0.353,83.853z"
+      android:fillColor="#FEAF02"
+      android:fillType="evenOdd"/>
+  <path
+      android:pathData="M22.397,24.25L16.853,32.647 12.353,24.853z"
+      android:fillColor="#FEAF02"
+      android:fillType="evenOdd"/>
+  <path
+      android:pathData="M203.75,37.603L203.147,47.647 195.353,43.147z"
+      android:fillColor="#FEAF02"
+      android:fillType="evenOdd"/>
+  <path
+      android:pathData="M63,68m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"
+      android:fillColor="#00B3CC"
+      android:fillType="evenOdd"/>
+  <path
+      android:pathData="M82,12m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"
+      android:fillColor="#00B3CC"
+      android:fillType="evenOdd"/>
+  <path
+      android:pathData="M232,17m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"
+      android:fillColor="#00B3CC"
+      android:fillType="evenOdd"/>
+  <path
+      android:pathData="M224,102m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"
+      android:fillColor="#00B3CC"
+      android:fillType="evenOdd"/>
+  <path
+      android:pathData="M59.975,4.404L62.096,6.525L55.025,13.596L52.904,11.475z"
+      android:fillColor="#F9899D"
+      android:fillType="evenOdd"/>
+  <path
+      android:pathData="M59.08,100.201L60.58,102.799L51.92,107.799L50.42,105.201z"
+      android:fillColor="#F9899D"
+      android:fillType="evenOdd"/>
+  <path
+      android:pathData="M203.836,74.655L203.315,77.609L213.163,79.346L213.684,76.392z"
+      android:fillColor="#F9899D"
+      android:fillType="evenOdd"/>
+  <path
+      android:pathData="M178.665,4.754L177.398,7.473L168.335,3.246L169.602,0.527z"
+      android:fillColor="#F9899D"
+      android:fillType="evenOdd"/>
+  <path
+      android:pathData="M260.665,65.754L259.398,68.473L250.335,64.246L251.602,61.527z"
+      android:fillColor="#F9899D"
+      android:fillType="evenOdd"/>
+</vector>

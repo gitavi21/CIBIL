@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/pale_grey"
+    tools:context=".FreshCustomerLandingPage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7.5dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                app:cardCornerRadius="8dp"
+                app:cardBackgroundColor="@android:color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginBottom="13dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_gravity="center"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_cibil_1"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/ContactNameHighlightNavy2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hello Ravindra,"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/rubik_medium"
+                            android:letterSpacing="0.01"
+                            android:textColor="@color/navy_blue"
+                            />
+
+                        <TextView
+                            style="@style/GreyB2126"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Check your credit score for free in just 2 minutes"
+                            android:textColor="@color/brownish_grey"
+                            android:fontFamily="@font/rubik_regular"
+                            android:textSize="12sp"
+                            android:letterSpacing="0.01"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8.5dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                app:cardCornerRadius="8dp"
+                app:cardBackgroundColor="@android:color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="26dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="11dp">
+
+                        <TextView
+                            style="@style/TextStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="View your personalized credit report and loan
+offers in just 3 steps"
+                            android:textColor="@android:color/black"
+                            android:fontFamily="@font/rubik_medium"
+                            android:textSize="14sp"
+                            android:letterSpacing="0.016"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="100"
+                        android:layout_marginTop="14dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15.7dp"
+                            android:layout_marginEnd="9.3dp"
+                            android:layout_gravity="center"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/ic_one_icon"
+                                android:text="1"
+                                android:fontFamily="@font/rubik_bold"
+                                android:textSize="16sp"
+                                android:gravity="center"
+                                android:textColor="@android:color/white"
+                                android:letterSpacing="0.01"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="18dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/rubik_medium"
+                                android:textStyle="normal"
+                                android:textSize="12sp"
+                                android:textColor="@color/dark_slate_blue"
+                                android:letterSpacing="0.013"
+                                android:text="Enter Your Personal Details"
+                                />
+
+                            <TextView
+                                style="@style/GreyB2126"
+                                android:fontFamily="@font/rubik_regular"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:textSize="12sp"
+                                android:textColor="@color/brownish_grey"
+                                android:letterSpacing="0.013"
+                                android:text="Ensure it matches your ID Proofs"
+                                />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="100"
+                        android:layout_marginTop="14dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15.7dp"
+                            android:layout_marginEnd="9.3dp"
+                            android:layout_gravity="center"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/ic_one_icon"
+                                android:text="2"
+                                android:fontFamily="@font/rubik_bold"
+                                android:textSize="16sp"
+                                android:gravity="center"
+                                android:textColor="@android:color/white"
+                                android:letterSpacing="0.01"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="18dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/rubik_medium"
+                                android:textStyle="normal"
+                                android:textSize="12sp"
+                                android:textColor="@color/dark_slate_blue"
+                                android:letterSpacing="0.013"
+                                android:text="Verify Your Identity"
+                                />
+
+                            <TextView
+                                style="@style/GreyB2126"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:textSize="12sp"
+                                android:fontFamily="@font/rubik_regular"
+                                android:letterSpacing="0.01"
+                                android:textColor="@color/brownish_grey"
+                                android:text="Confirm the OTP sent on your mobile number and email ID"
+                                />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="100"
+                        android:layout_marginTop="14dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15.7dp"
+                            android:layout_marginEnd="9.3dp"
+                            android:layout_gravity="center"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/ic_one_icon"
+                                android:text="3"
+                                android:fontFamily="@font/rubik_bold"
+                                android:textSize="16sp"
+                                android:gravity="center"
+                                android:textColor="@android:color/white"
+                                android:letterSpacing="0.01"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="18dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/rubik_medium"
+                                android:textStyle="normal"
+                                android:textSize="12sp"
+                                android:textColor="@color/dark_slate_blue"
+                                android:letterSpacing="0.01"
+                                android:text="View Your CIBIL Report"
+                                />
+
+                            <TextView
+                                style="@style/GreyB2126"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/rubik_regular"
+                                android:textSize="12sp"
+                                android:letterSpacing="0.01"
+                                android:textColor="@color/brownish_grey"
+                                android:text="Check the best loan offers customized for you"
+                                />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                app:cardCornerRadius="8dp"
+                app:cardBackgroundColor="@android:color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="26dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="14dp"
+                        android:layout_marginEnd="11dp">
+
+                        <TextView
+                            style="@style/TextStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="What’s in your credit health report?"
+                            android:fontFamily="@font/rubik_medium"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp"
+                            android:letterSpacing="0.01"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="17dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="19dp"
+                            android:layout_gravity="center"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_icon_1"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="11dp"
+                            android:layout_marginEnd="18dp"
+                            android:layout_gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/rubik_medium"
+                                android:textStyle="normal"
+                                android:textSize="12sp"
+                                android:textColor="@color/dark_slate_blue"
+                                android:letterSpacing="0.01"
+                                android:text="Your detailed credit profile"
+                                />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="17dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="19dp"
+                            android:layout_gravity="center"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_icon_2"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="11dp"
+                            android:layout_marginEnd="18dp"
+                            android:layout_gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/rubik_medium"
+                                android:textStyle="normal"
+                                android:textSize="12sp"
+                                android:textColor="@color/dark_slate_blue"
+                                android:letterSpacing="0.01"
+                                android:text="Complete analysis of your score"
+                                />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="17dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="19dp"
+                            android:layout_gravity="center"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_icon_3"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="11dp"
+                            android:layout_gravity="center"
+                            android:layout_marginEnd="18dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/rubik_medium"
+                                android:textStyle="normal"
+                                android:textSize="12sp"
+                                android:textColor="@color/dark_slate_blue"
+                                android:letterSpacing="0.01"
+                                android:text="Personalized offers on our products"
+                                />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="17dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="19dp"
+                            android:layout_gravity="center"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_icon_4"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="11dp"
+                            android:layout_marginEnd="18dp"
+                            android:layout_gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/rubik_medium"
+                                android:textStyle="normal"
+                                android:textSize="12sp"
+                                android:textColor="@color/dark_slate_blue"
+                                android:letterSpacing="0.01"
+                                android:text="Suggestions to manage your credit health"
+                                />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/get_cibil_score_button_id"
+            android:onClick="get_cibil_score"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="19dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GET CIBIL SCORE"
+            android:fontFamily="@font/rubik_medium"
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:textColor="@color/colour_neutral_white"
+            android:background="@drawable/orange_button_curved_style" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20.5dp"
+            android:layout_marginEnd="17.5dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rubik_regular"
+                android:textStyle="normal"
+                android:textSize="11sp"
+                android:textColor="#333333"
+                android:letterSpacing="0.01"
+                android:gravity="center_horizontal"
+                android:text="By clicking on Get it Now you agree to the "
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rubik_medium"
+                android:textStyle="normal"
+                android:textSize="11sp"
+                android:textColor="#ff5a00"
+                android:letterSpacing="0.01"
+                android:gravity="center_horizontal"
+                android:text="Terms and Conditions"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

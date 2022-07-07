@@ -1,0 +1,154 @@
+
+<div class="card-wrapper">
+
+    <mat-card class="example-card">
+        <mat-card-content>
+          <table>
+            <tr>
+        <td>  <span class="align-middle">
+           
+            <div class="p2">
+              <img src="assets/images/info.png" alt="p1"></div>
+          </span></td>
+          <div class="wrapper"> 
+        
+        <td>  <div class="div-2">We need few details as per your ID proof to check your score with CIBIL</div>
+        </td> </div>
+        </tr>
+        </table>
+        </mat-card-content>
+    
+      
+    </mat-card>
+    <mat-card >
+        <mat-card-content>
+          <div class="div-3">Personal Details</div>
+          <div class = "tp-container">
+           
+            <mat-form-field appearance = "legacy">  
+              <mat-label>First Name</mat-label>  
+              <input matInput placeholder = "Placeholder">  
+              <mat-hint>As Per your PAN card</mat-hint>  
+            </mat-form-field>  
+       
+            <mat-form-field appearance = "legacy">  
+              <mat-label>Last Name</mat-label>  
+              <input matInput placeholder = "Placeholder">  
+              <mat-hint>As Per your PAN card</mat-hint>  
+            </mat-form-field>  
+            <mat-form-field appearance = "legacy">  
+              <mat-label>Mobile Number</mat-label>  
+              <input matInput placeholder = "Placeholder" type="number"     maxlength="5"
+              >  
+              <mat-hint>Enter your 10 digits mobile number</mat-hint>  
+            </mat-form-field>  
+            <mat-form-field appearance = "legacy">  
+              <mat-label>PAN</mat-label>  
+              <img matSuffix src="assets/images/info1.png" width="20px" height="20px" (click)="openBottomSheet2()">
+
+              <input matInput placeholder = "Placeholder" maxlength="10">  
+              <mat-hint>10-digit number on your PAN card</mat-hint>  
+            </mat-form-field>  
+            
+            <!-- <mat-form-field appearance = "legacy">  
+              <mat-label>Date of birth</mat-label>  
+              <img matSuffix src="assets/images/info1.png" width="25px" height="25px" >
+
+              <img matSuffix src="assets/images/date.png" width="25px" height="25px">
+
+              <input matInput placeholder = "Placeholder" maxlength="10" type="date">  
+              <mat-hint>As per your PAN Card</mat-hint>  
+            </mat-form-field>   -->
+           
+            <mat-form-field>
+              <input matInput [matDatepicker]="pickeryear" 
+               >
+               <mat-label>Date of birth</mat-label>  
+            
+               <img matSuffix src="assets/images/info1.png" class="p3" width="20px" height="20px" (click)="openBottomSheet1()" >
+
+              <mat-datepicker-toggle matSuffix [for]="pickeryear">
+                
+                <img matDatepickerToggleIcon src="assets/images/date.png" width="20px" height="20px">
+
+              </mat-datepicker-toggle>
+           
+              <mat-datepicker #pickeryear startView="year"></mat-datepicker>
+           
+              <mat-hint>As per your PAN Card</mat-hint>  
+            
+          </mat-form-field>
+            
+            <mat-form-field appearance = "legacy">  
+              <mat-label>PIN Code</mat-label>  
+              <input matInput placeholder = "Placeholder" maxlength="6" type="number">  
+              <mat-hint>Enter your 6 digit area pincode</mat-hint>  
+            </mat-form-field>  
+          
+            <mat-form-field appearance = "legacy">  
+              <mat-label>Email ID</mat-label>  
+              <input matInput placeholder = "Placeholder" maxlength="6" type="email">  
+              <mat-hint>Your email ID might be used for verification</mat-hint>  
+            </mat-form-field>  
+            <div class="div-5">Employment Type</div>
+
+            <mat-radio-group aria-label="Select an option">
+              
+              <mat-radio-button value="1" [checked]='true'>Salaried</mat-radio-button>
+              <mat-radio-button value="2">Self Employed</mat-radio-button>
+            </mat-radio-group> 
+            <mat-form-field appearance = "legacy">  
+              <mat-label>Monthly Take Home Salary</mat-label>  
+              <img matSuffix src="assets/images/info1.png" width="20px" height="20px" (click)="openBottomSheet3()">
+
+              <input matInput placeholder = "Placeholder" maxlength="6" type="email">  
+              <mat-hint>Take home salary in rupees </mat-hint>  
+            </mat-form-field>  
+            
+        </div>
+        
+          <!-- <form (ngSubmit)="onSubmit()">
+            <div fxLayout="column" fxLayoutAlign="center center">
+              <div fxFlex="100%">
+                <mat-form-field appearance="outline" class="form-field">
+                  <mat-label>Full Name</mat-label>
+                  <input matInput formControlName="name" name="name" required pattern="/\s/">
+                </mat-form-field>
+              </div>
+              <div fxFlex="100%">
+                <mat-form-field appearance="outline" class="form-field">
+                  <mat-label>Email</mat-label>
+                  <input matInput formControlName="email" name="email" required type="email">
+                </mat-form-field>
+              </div>
+              <div fxFlex="100%">
+                <mat-form-field appearance="outline" class="form-field">
+                  <mat-label>Password</mat-label>
+                  <input matInput formControlName="password" name="password" type="password" required pattern="^(?=.*[A-Z])(?=.*[0-9])(?=.*[a-z]).{8,}$">
+                  <mat-error *ngIf="registerForm.value.password">Password must be a combination of lower-case, upper-case, numbers and at least 9 characters long</mat-error>
+                </mat-form-field>
+              </div>
+              <div fxFlex="100%">
+                <mat-form-field appearance="outline" class="form-field">
+                  <mat-label>Confirm Password</mat-label>
+                  <input matInput formControlName="confirmPassword" name="confirmPassword" type="password" required pattern="{{registerForm.value.password}}">
+                  <mat-error *ngIf="registerForm.value.verifyPassword">Passwords do not match.</mat-error>
+                </mat-form-field>
+              </div>
+              <div fxFlex="100%">
+                  <button mat-stroked-button color="primary" type="submit" [disabled]="!registerForm.valid">Register</button>
+              </div>
+            </div>
+        </form> -->
+        </mat-card-content>
+      
+    </mat-card>
+    <div class="d-grid gap-2">
+    <button type="button" class="btn btn-info btn-rounded waves-effect waves-light " (click)="submit()">PROCEED</button>
+  </div>
+  <div class="div-4">
+  By clicking Proceed you agree to <div class="orange">CIBIL Consent</div> 
+&<div class="orange">Terms of Understanding</div> </div>
+  </div>
+  
+
